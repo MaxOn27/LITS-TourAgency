@@ -1,0 +1,262 @@
+div nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+div nav .agencyName {
+  position: absolute;
+  top: 0;
+  bottom: 0px;
+  right: 100px;
+  color: #ffffff;
+  font-size: 3em;
+  font-family: "Cookie", cursive;
+}
+
+div ul {
+  font-size: 1.2em;
+  margin-top: 30px;
+}
+
+div ul .home {
+  color: #ffffff;
+  padding: 10px;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  margin: 8px;
+}
+
+div ul .home:hover {
+  color: #5f4ef7;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+div ul .login {
+  color: #ffffff;
+  padding: 10px;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  margin: 8px;
+}
+
+div ul .login:hover {
+  color: #5f4ef7;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+div ul .about-us {
+  color: #ffffff;
+  padding: 10px;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  margin: 8px;
+}
+
+div ul .about-us:hover {
+  color: #5f4ef7;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.home-content {
+  font-family: "Nunito", sans-serif;
+}
+
+.home-content .MoTo {
+  height: 67vh;
+}
+
+.home-content .MoTo h2 {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  color: #ffffff;
+  font-family: "Kaushan Script", cursive;
+  font-size: 5em;
+}
+
+.home-content .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 0px;
+}
+
+.home-content .wrapper .wrapper-list .list {
+  display: inline;
+  border: 2px solid #ffffff;
+  border-radius: 20px 20px 2px 2px;
+  background-color: #ffffff;
+  text-decoration: none;
+  padding-bottom: 34px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.home-content .wrapper .wrapper-list .list .list-of-countries {
+  position: relative;
+  top: 59%;
+  padding: 10px;
+  color: #000000;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.home-content .wrapper .wrapper-list .list .list-of-countries:hover {
+  color: #5f4ef7;
+}
+
+.home-content .footer {
+  height: 100%;
+  background: rgba(7, 7, 7, 0.678);
+}
+
+.home-content .footer i {
+  font-size: large;
+  padding-right: 5px;
+}
+
+.home-content .footer .contacts {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 43%;
+  padding-right: 10px;
+  color: #949393;
+}
+
+.home-content .footer .contacts:hover {
+  color: #ffffff;
+}
+
+.home-content .footer .social-network-name {
+  padding-left: 8px;
+}
+
+.home-content .footer .rights {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #949393;
+}
+
+.wrapper-country-content {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  background-color: rgba(51, 51, 51, 0.89);
+  border-radius: 5px;
+  max-width: 70%;
+  color: #ffffff;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+}
+
+.wrapper-country-content .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.6rem;
+}
+
+.wrapper-country-content .img {
+  position: relative;
+  left: 23%;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  height: 330px;
+  width: 580px;
+}
+
+.wrapper-country-content .title-content {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+.log-in {
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: "Dosis", sans-serif;
+}
+
+.log-in h2 {
+  float: left;
+  width: 100%;
+  font-size: 30px;
+  border-bottom: 2px solid #ffffff;
+  margin-bottom: 25px;
+  padding: 13px 0;
+  color: #ffffff;
+}
+
+.log-in .textbox {
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #ffffff;
+}
+
+.log-in .textbox i {
+  position: relative;
+  top: 20px;
+  left: 5px;
+  font-size: large;
+  color: #ffffff;
+}
+
+.log-in .textbox input {
+  border: none;
+  outline: none;
+  background: none;
+  color: #ffffff;
+  width: 100%;
+  float: left;
+  margin-left: 35px;
+  font-size: 0.9em;
+}
+
+.log-in .btn {
+  width: 100%;
+  background: none;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://nordiclocal.com/wp-content/uploads/2019/02/Best-Hikes-in-Norway.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://nordiclocal.com/wp-content/uploads/2019/02/Best-Hikes-in-Norway.jpg");
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */

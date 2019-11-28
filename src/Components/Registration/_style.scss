@@ -1,0 +1,83 @@
+$font-nav: "Nunito", sans-serif;
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 15%;
+  left: 3%;
+  margin: 0 auto;
+  border-radius: 10px;
+ 
+  
+  .forms-input {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(39, 233, 240, 0.767);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    background: none;
+    outline: none;
+    font-family: $font-nav;
+  }
+  .forms-select {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(39, 233, 240, 0.767);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1rem;
+    color: rgb(39, 233, 240);
+    background: none;
+    outline: none;
+    font-family: $font-nav;
+  }
+  
+  .input-name{
+    position: relative;
+    left: 15%;
+    color: white;
+    font-family: $font-nav;
+    width:300px;
+  }
+  .forms-btn {
+    position: relative;
+    left: 35%;
+    padding: 8px;
+    border: 1px solid rgba(39, 233, 240, 0.767);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    background: none;
+    outline: none;
+    font-family: $font-nav;
+    width: 150px; 
+    cursor: pointer; 
+  }
+  .forms-btn:hover{
+    background-color: rgba(93, 230, 235, 0.767);
+  }  
+}
+.result-wrapper{
+  float: right;
+  margin: 4%;
+  padding: 5%;
+  width: 30%;
+  border-radius: 5%;
+  background-color: rgba(39, 233, 240, 0.116);
+  right: 50px;
+  top: 15%;
+  .result{
+    font-family: $font-nav;
+    font-size: 1.5rem;
+    color: white;
+  }
+}
+
+
+

@@ -1,0 +1,77 @@
+$nav: #ffffff;
+$navHover: black;
+$liHover: rgb(78, 109, 247);
+$font-nav: "Nunito", sans-serif;
+
+div {
+  nav {
+    display: flex;
+    justify-content: left;
+    .agencyName {
+      position: absolute;
+      top: 1%;
+      bottom: 0px;
+      right: 35px;
+      color: $nav;
+      font-size: 3em;
+      font-family: "Cookie", cursive;
+      text-shadow: 2px 2px 2px $navHover;
+      .logoPhoto {
+        position: relative;
+        margin-left: 10px;
+        margin-right: 10px;
+        top: 3.5%;
+        height: 70px;
+        width: 70px;
+      }
+    }
+  }
+  ul {
+    font-size: 1.4em;
+    margin-top: 40px;
+    .home {
+      color: $nav;
+      padding: 10px 35px;
+      font-family: $font-nav;
+      text-decoration: none;
+      border: 1px solid $nav;
+      margin: 15px;
+    }
+    .home:hover {
+      border: 1px solid $liHover;
+      color: $liHover;
+      transition: 0.6s;
+    }
+    .login {
+      color: $nav;
+      padding: 10px 40px;
+      font-family: $font-nav;
+      text-decoration: none;
+      border: 1px solid $nav;
+      margin: 15px;
+    }
+    .login:hover {
+      border: 1px solid $liHover;
+      color: $liHover;
+      transition: 0.6s;
+    }
+    .about-us {
+      color: $nav;
+      padding: 10px 35px;
+      font-family: $font-nav;
+      text-decoration: none;
+      border: 1px solid $nav;
+      margin: 15px;
+    }
+    .about-us:hover {
+      border: 1px solid $liHover;
+      color: $liHover;
+      transition: 0.6s;
+    }
+  }
+}
+@media screen and (max-width: 768px){
+  .agencyName{
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,46 @@
+$font-family: "Nunito", sans-serif;
+$fontColor: #ffffff;
+.company-wrapper {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  background-color: rgba(51, 51, 51, 0.342);
+  border-radius: 5px;
+  width: 80%;
+  color: $fontColor;
+  font-family: $font-family;
+  margin: 0;
+  .img-company {
+    position: relative;
+    left: 28%;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 300px;
+    width: 550px;
+    margin: 10px;
+  }
+
+  i{
+    font-size: 1.2rem;
+    margin-right: 4px;
+    color: aqua;
+  }
+  .paragraph-company {
+    position: relative;
+    left: 15%;
+    width: 70%;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    text-indent: 20px;
+  }
+  .title-company {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+  }
+  .heading-aboutUs {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+}

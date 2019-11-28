@@ -1,0 +1,15 @@
+@import "./_navMenu";
+@import "../Components/Home/_style";
+@import "../Components/Auth/_style";
+@import "../Components/AboutUs/style";
+@import "../Components/Registration/style";
+@import "../Components/Error/style";
+
+$back-Color: rgb(168, 250, 229);
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://nordiclocal.com/wp-content/uploads/2019/02/Best-Hikes-in-Norway.jpg") no-repeat;
+    background-size: cover;
+}

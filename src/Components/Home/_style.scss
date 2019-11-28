@@ -1,0 +1,181 @@
+$font-family: "Nunito", sans-serif;
+$fontColor: #ffffff;
+$footerColor: rgb(49, 47, 47);
+$navHover: rgb(95, 78, 247);
+
+.loading {
+  position: absolute;
+  top: 40%;
+  left: 44%;
+  height: 200px;
+  width: 200px;
+}
+.home-content {
+  font-family: $font-family;
+  .MoTo {
+    height: 67vh;
+    text-shadow: 5px 5px 5px black;
+    h2 {
+      position: absolute;
+      top: 20%;
+      left: 30%;
+      color: $fontColor;
+      font-family: "Kaushan Script", cursive;
+      font-size: 5em;
+    }
+  }
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    .wrapper-list {
+      .list {
+        display: inline;
+        border: 2px solid $fontColor;
+        border-radius: 20px 20px 2px 2px;
+        background-color: $fontColor;
+        text-decoration: none;
+        padding-bottom: 34px;
+        padding-left: 20px;
+        padding-right: 20px;
+        .list-of-countries {
+          position: relative;
+          top: 59%;
+          padding: 10px;
+          color: #000000;
+          text-decoration: none;
+          font-size: 0.9em;
+        }
+        .list-of-countries:hover {
+          color: $navHover;
+        }
+      }
+    }
+  }
+  .footer {
+    height: 100%;
+    background: rgba(7, 7, 7, 0.678);
+    i {
+      font-size: large;
+      padding-right: 5px;
+    }
+    .contacts {
+      display: inline-block;
+      position: relative;
+      top: 11px;
+      left: 40%;
+      padding-right: 10px;
+      color: rgb(148, 147, 147);
+    }
+    .contacts:hover {
+      color: $fontColor;
+    }
+    .social-network-name {
+      padding-left: 8px;
+    }
+    .rights {
+      display: flex;
+      justify-content: center;
+      color: rgb(148, 147, 147);
+    }
+  }
+}
+
+.wrapper-country-content {
+  position: absolute;
+  top: 13%;
+  left: 10%;
+  background-color: rgba(51, 51, 51, 0.342);
+  border-radius: 5px;
+  width: 80%;
+  height: 88%;
+  color: $fontColor;
+  font-family: $font-family;
+  margin: 0 auto;
+  .heading {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  
+  .img {
+    float: left;
+    margin-left: 5%;
+    border: 2px solid $fontColor;
+    border-radius: 5px;
+    height: 250px;
+    width: 500px;
+  }
+  .title {
+    float: right;
+    margin-right: 9%;
+    font-size: 1.8rem;
+  }
+  .title-content {
+    float: right;
+    width: 40%;
+    margin-top: 3%; 
+    margin-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.4rem;
+    text-align: justify;
+    text-indent: 20px;
+  }
+  .img2 {
+    float: right;
+    margin-top: 3%;
+    margin-right: 5%;
+    border: 2px solid $fontColor;
+    border-radius: 5px;
+    height: 250px;
+    width: 500px;
+  }
+  .title2 {
+    float: left;
+    margin-top: 2%;
+    margin-left: 9%;
+    font-size: 1.6rem;
+  }
+  .title-content2 {
+    float: left;
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.4rem;
+    text-align: justify;
+    text-indent: 20px;
+  }
+  .book-btn {
+    position: absolute;
+    left: 45%;
+    top: 92%; 
+    outline: none;
+    padding: 5px 60px;
+    // margin: 10px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: $font-family;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .book-btn:hover {
+    background-color: azure;
+    color: black;
+    transition: 1.2s;
+  }
+  // i{
+  //   position: absolute;
+  //   top: 92%;
+  //   left: 65%;
+  //   font-size: 2.5rem;
+  //   color: #ffffff;
+  // }
+}
+
